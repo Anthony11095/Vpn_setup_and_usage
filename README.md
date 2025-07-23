@@ -74,12 +74,25 @@ CONFIGURATION STEPS
 
 <img width="1898" height="878" alt="Active Directory lab, creating resource group" src="https://github.com/user-attachments/assets/9e1f8e90-7de9-437c-a9c3-6e273f8a07c6" />
 
+## Step 1: Create a Resource Group in Azure
 
+![Azure Portal - Create Resource Group](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot shows the Azure Portal interface during the process of **creating a Resource Group**, which is the first step in setting up cloud infrastructure for this lab. The form includes the following configuration fields:
 
+- **Subscription:** `Active-Directory-Lab`
+- **Resource Group Name:** (input field for defining the name)
+- **Region:** `East US 2` *(this will later be changed to a region in **Canada** during VM setup)*
 
+A blue button labeled **"Review + create"** appears at the bottom, allowing the user to proceed after entering all required information.
 
+### Purpose of This Step
 
+This corresponds to **Step 1** of the Lab Checklist:
+
+> `1. Create a Resource Group`
+
+Creating a resource group is essential before provisioning services like virtual machines. It acts as a container for organizing and managing related Azure resources. This step establishes the workspace where all cloud assets for the lab will reside. The choice of region (initially `East US 2`) will be adjusted to **Canada** in a later step to demonstrate geographic diversity for VPN and IP testing.
 
 <img width="1909" height="807" alt="Screenshot 2025-06-30 121523" src="https://github.com/user-attachments/assets/3f90846b-fcae-40dd-9598-74ba45b96620" />
 
