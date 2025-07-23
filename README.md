@@ -122,13 +122,30 @@ This step is necessary to simulate geographic variation in internet access. By d
 
 <img width="1869" height="780" alt="Screenshot 2025-06-30 124922" src="https://github.com/user-attachments/assets/36916353-3370-4e17-8408-37a402f59505" />
 
+## Step 3: Virtual Machine Deployment in Progress
 
+![Azure Portal - VM Deployment in Progress](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot shows the Azure Portal displaying the **deployment progress** of a Windows 10 virtual machine. The deployment process has been initiated successfully and includes multiple resources being provisioned under the selected resource group.
 
+### Deployment Details:
+- Deployment Name: CreateVm-MicrosoftWindowsDesktop.Windows-10-win10-20250630120542
+- Subscription: Azure subscription 1
+- Resource Group: vpn-test
+- Start Time: 07/03/2025, 7:41:41 PM
 
+### Resources Being Created:
+- vpn-test-win10: Microsoft.Compute/virtualMachines (Status: Created)
+- vpn-test-win10-nic: Microsoft.Network/networkInterfaces (Status: OK)
+- vpn-test-win10-vnet: Microsoft.Network/virtualNetworks (Status: OK)
+- vpn-test-win10-nsg: Microsoft.Network/networkSecurityGroups (Status: OK)
+- vpn-test-win10-ip: Microsoft.Network/publicIPAddresses (Status: OK)
 
+### Purpose of This Step
 
+This screenshot confirms successful provisioning of Azure resources that are part of the virtual machine infrastructure. It validates that the virtual machine is being created with supporting network components (NIC, VNet, NSG, Public IP), which are essential for remote access and future VPN testing.
 
+Once the deployment is complete, the VM can be accessed via Remote Desktop Protocol (RDP) for the VPN testing steps outlined later in the lab.
 
 <img width="1897" height="857" alt="using remote desktop after creating our virtual machine, vpn set up   usage lab" src="https://github.com/user-attachments/assets/1131a9ca-fb88-4f47-983f-8a51047f5fe5" />
 
