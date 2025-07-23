@@ -149,12 +149,36 @@ Once the deployment is complete, the VM can be accessed via Remote Desktop Proto
 
 <img width="1897" height="857" alt="using remote desktop after creating our virtual machine, vpn set up   usage lab" src="https://github.com/user-attachments/assets/1131a9ca-fb88-4f47-983f-8a51047f5fe5" />
 
+## Step 4: Access the Virtual Machine via Remote Desktop
 
+![Azure Portal - RDP Access to VM](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot shows the user's system accessing the newly created virtual machine using **Remote Desktop Protocol (RDP)**. The Remote Desktop Connection interface displays saved PCs, including the VM labeled `vpn-test-win10rdwin`, confirming the session is ready for connection.
 
+### How to Get Here – Steps to Access the VM via RDP:
 
+1. Navigate to the **Azure Portal**.
+2. Go to **Virtual Machines** under the **Compute** section in the sidebar.
+3. Select your deployed VM (e.g., `vpn-test-win10`).
+4. Click on the **"Connect"** button at the top of the VM Overview page.
+5. Choose the **RDP (Remote Desktop)** option.
+6. Download the `.rdp` file provided by Azure and open it.
+7. When prompted, enter the **username and password** that were configured during the VM creation process.
+8. Accept the certificate warning (if shown), and you will be connected to the virtual machine.
 
+### Details Observed in the Screenshot:
+- Remote Desktop client shows multiple saved PC entries, including the active test VM
+- VM name: `vpn-test-win10rdwin`
+- Connection is initiated from a local system to the cloud-hosted Windows 10 VM
+- Azure Portal in the background confirms the VM is listed and active
 
+### Purpose of This Step
+
+This fulfills the checklist item:
+
+> Log into the VM with Remote Desktop
+
+Remote access enables users to interact with the VM as if it were a physical machine. This is critical for the next phase of the lab, where VPN software will be installed and geolocation behavior will be tested. Successfully establishing RDP access verifies that the VM is online, reachable, and properly configured for the lab's objectives.
 
 <img width="1905" height="871" alt="deleting or clean up VM  after using Vpn lab" src="https://github.com/user-attachments/assets/f3742fb4-3c1a-44c7-a3c2-a2c15f61d3d2" />
 
