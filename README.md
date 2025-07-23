@@ -182,6 +182,38 @@ Remote access enables users to interact with the VM as if it were a physical mac
 
 <img width="1905" height="871" alt="deleting or clean up VM  after using Vpn lab" src="https://github.com/user-attachments/assets/f3742fb4-3c1a-44c7-a3c2-a2c15f61d3d2" />
 
+## Step 5: Delete the Virtual Machine and Associated Resources
+
+![Azure Portal - Delete Virtual Machine](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
+
+This screenshot shows the process of deleting the virtual machine (`vpn-test-win10`) and its associated resources within the Azure Portal. This step is part of the cleanup phase after all testing has been completed.
+
+### What Was Done Prior to This Step
+
+Before reaching this point, the following key actions were performed in the lab:
+
+1. The public IP address of the local machine was recorded as a baseline.
+2. A new resource group was created in Azure to contain all cloud-based assets.
+3. A Windows 10 virtual machine was deployed in a geographically different region (Canada Central) to simulate remote activity from another country.
+4. The VM was accessed remotely using Remote Desktop Protocol (RDP).
+5. Within the VM, the public IP address was checked again to confirm its region.
+6. VPN software (ProtonVPN) was installed and used to connect to yet another remote server (e.g., in Japan).
+7. Browsing tests were conducted to observe differences in content, language, or layout based on IP/geolocation changes while connected through the VPN.
+
+After completing these steps, the virtual machine and all related resources (such as disks, network interfaces, and public IPs) are no longer needed.
+
+### How to Delete the VM:
+
+1. Go to **Virtual Machines** in the Azure Portal.
+2. Select the VM (e.g., `vpn-test-win10`).
+3. Click **Delete** at the top of the page.
+4. Review the list of associated resources: OS disk, NIC, and public IP.
+5. Check the confirmation box to acknowledge permanent deletion.
+6. Click **Delete** to finalize.
+
+### Purpose of This Step
+
+This step ensures all cloud resources are cleaned up to prevent unnecessary charges and maintain a tidy Azure environment. It is a best practice to delete unused virtual machines and related infrastructure once testing is complete.
 
 
 
