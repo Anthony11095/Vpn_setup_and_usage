@@ -96,12 +96,29 @@ Creating a resource group is essential before provisioning services like virtual
 
 <img width="1909" height="807" alt="Screenshot 2025-06-30 121523" src="https://github.com/user-attachments/assets/3f90846b-fcae-40dd-9598-74ba45b96620" />
 
+## Step 2: Create a Windows 10 Virtual Machine in Azure
 
+![Azure Portal - Create Virtual Machine](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot captures the configuration screen for setting up a Windows 10 Virtual Machine in the Microsoft Azure portal. The VM is being deployed to a different geographic region, specifically **Canada Central**, to support the VPN-related objectives of the lab.
 
+### Configuration Details:
+- Subscription: Azure subscription 1
+- Resource Group: vpn-test
+- Virtual Machine Name: vpn-test-win10
+- Region: (Canada) Canada Central
+- Availability Option: Availability zone
+- Image: Windows 10
+- Size: Standard_D2s_v3
+- Estimated Monthly Cost: $100.74 (shown on the right)
 
+### Purpose of This Step
 
+This corresponds to **Step 3** in the Lab Checklist:
 
+> 3. Create a Windows 10 Virtual Machine in another geographic location (try a different country)
+
+This step is necessary to simulate geographic variation in internet access. By deploying the VM in Canada and accessing it remotely, users can test how services and websites behave when accessed from another region. This sets the stage for testing VPN behavior in later steps.
 
 <img width="1869" height="780" alt="Screenshot 2025-06-30 124922" src="https://github.com/user-attachments/assets/36916353-3370-4e17-8408-37a402f59505" />
 
