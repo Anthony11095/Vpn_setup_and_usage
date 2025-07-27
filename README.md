@@ -59,14 +59,30 @@ Open Microsoft Remote Desktop and enter the IP address of the VM. Complete the s
 
 ---
 
-
+### 5. Download Proton VPN Client
 ![image](https://github.com/user-attachments/assets/4236f54f-2f86-4879-b708-6e2d92585d0b)
+Go to the Proton VPN website and click on **Download** for your operating system.
 
-![image](https://github.com/user-attachments/assets/8e6436f4-8641-4b1c-8d41-18ac41bd3a0b)
+---
 
-![image](https://github.com/user-attachments/assets/907d2476-e8b6-466e-be0d-e096f47209b1)
+### 6. Begin Installation Setup
+![image](https://github.com/user-attachments/assets/003071d5-041f-4e54-bd0e-ccae482e3cfa)
+After downloading, run the installer. On the **Ready to Install** screen, click **Install** to begin the installation.
 
+---
+
+### 7. Connect to a VPN Server
+![image](https://github.com/user-attachments/assets/1237e5a8-ca8f-4f0e-bc76-7a92a115d925)
+
+Launch Proton VPN and choose a server location. Connect to it using the available button.
+
+---
+
+### 8. Verify VPN IP Address
 ![image](https://github.com/user-attachments/assets/9b2e1567-3865-4583-97f0-2c853fac9837)
+Visit [https://whatismyipaddress.com](https://whatismyipaddress.com) and confirm the IP address is different from your original location.
+
+
 
 <img width="1905" height="871" alt="deleting or clean up VM  after using Vpn lab" src="https://github.com/user-attachments/assets/f3742fb4-3c1a-44c7-a3c2-a2c15f61d3d2" />
 
