@@ -39,15 +39,26 @@ This guide walks through the step-by-step process of setting up, connecting, and
 ## 1. Log in to Azure and Access Virtual Machines
 <img width="1909" height="807" alt="Screenshot 2025-06-30 121523" src="https://github.com/user-attachments/assets/3f90846b-fcae-40dd-9598-74ba45b96620" />
 Go to the Azure Portal and access your virtual machines.
+---
+
+### 2. Monitor Deployment Progress
+<img width="1869" height="780" alt="Screenshot 2025-06-30 124922" src="https://github.com/user-attachments/assets/36916353-3370-4e17-8408-37a402f59505" />
+Once the virtual machine deployment begins in Azure, monitor the progress and ensure all listed resources show a "Created" or "OK" status.
 
 ---
 
-
-<img width="1869" height="780" alt="Screenshot 2025-06-30 124922" src="https://github.com/user-attachments/assets/36916353-3370-4e17-8408-37a402f59505" />
-
+### 3. Locate Virtual Machines
 <img width="1897" height="857" alt="using remote desktop after creating our virtual machine, vpn set up   usage lab" src="https://github.com/user-attachments/assets/1131a9ca-fb88-4f47-983f-8a51047f5fe5" />
+Go to the “Virtual machines” section in Azure. Here, confirm your VM is listed and ready. Also, verify the corresponding PC entries in Remote Desktop.
 
+---
+
+### 4. Configure Remote Desktop Connection
 ![image](https://github.com/user-attachments/assets/d32a697b-3991-48b8-8263-9991df5518ba)
+Open Microsoft Remote Desktop and enter the IP address of the VM. Complete the setup by filling in the user name and saving it to your list of saved PCs.
+
+---
+
 
 <img width="1905" height="871" alt="deleting or clean up VM  after using Vpn lab" src="https://github.com/user-attachments/assets/f3742fb4-3c1a-44c7-a3c2-a2c15f61d3d2" />
 
