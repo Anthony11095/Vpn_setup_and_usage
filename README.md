@@ -60,10 +60,6 @@ Open Microsoft Remote Desktop and enter the IP address of the VM. Complete the s
 ---
 
 
-
-
-![image](https://github.com/user-attachments/assets/d32a697b-3991-48b8-8263-9991df5518ba)
-
 ![image](https://github.com/user-attachments/assets/4236f54f-2f86-4879-b708-6e2d92585d0b)
 
 ![image](https://github.com/user-attachments/assets/8e6436f4-8641-4b1c-8d41-18ac41bd3a0b)
