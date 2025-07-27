@@ -83,8 +83,12 @@ Launch Proton VPN and choose a server location. Connect to it using the availabl
 Visit [https://whatismyipaddress.com](https://whatismyipaddress.com) and confirm the IP address is different from your original location.
 
 
-
+### 9. Delete the Virtual Machine from Azure
 <img width="1905" height="871" alt="deleting or clean up VM  after using Vpn lab" src="https://github.com/user-attachments/assets/f3742fb4-3c1a-44c7-a3c2-a2c15f61d3d2" />
+Go to **Azure Portal > Virtual Machines**, select your VM, then click **Delete**.  
+Ensure the associated resources (OS disk, network interfaces, public IP) are selected as needed.  
+Check the acknowledgment box and click **Delete**.
+
 
 
 
