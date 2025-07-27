@@ -30,14 +30,24 @@ This lab demonstrates how VPNs can be used to mask your IP address and simulate 
 
 CONFIGURATION STEPS
 
+# 🔧 VPN Setup and Usage Guide
+
+This guide walks through the step-by-step process of setting up, connecting, and verifying a VPN using Proton VPN and Azure Virtual Machines. Follow each step in order and insert your screenshots in the indicated locations.
+
+---
+
+## 1. Log in to Azure and Access Virtual Machines
 <img width="1909" height="807" alt="Screenshot 2025-06-30 121523" src="https://github.com/user-attachments/assets/3f90846b-fcae-40dd-9598-74ba45b96620" />
+Go to the Azure Portal and access your virtual machines.
+
+---
 
 
 <img width="1869" height="780" alt="Screenshot 2025-06-30 124922" src="https://github.com/user-attachments/assets/36916353-3370-4e17-8408-37a402f59505" />
 
-
 <img width="1897" height="857" alt="using remote desktop after creating our virtual machine, vpn set up   usage lab" src="https://github.com/user-attachments/assets/1131a9ca-fb88-4f47-983f-8a51047f5fe5" />
 
+![image](https://github.com/user-attachments/assets/d32a697b-3991-48b8-8263-9991df5518ba)
 
 <img width="1905" height="871" alt="deleting or clean up VM  after using Vpn lab" src="https://github.com/user-attachments/assets/f3742fb4-3c1a-44c7-a3c2-a2c15f61d3d2" />
 
