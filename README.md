@@ -60,7 +60,7 @@ Open Microsoft Remote Desktop and enter the IP address of the VM. Complete the s
 ---
 
 
-<img width="1905" height="871" alt="deleting or clean up VM  after using Vpn lab" src="https://github.com/user-attachments/assets/f3742fb4-3c1a-44c7-a3c2-a2c15f61d3d2" />
+
 
 ![image](https://github.com/user-attachments/assets/d32a697b-3991-48b8-8263-9991df5518ba)
 
@@ -72,7 +72,7 @@ Open Microsoft Remote Desktop and enter the IP address of the VM. Complete the s
 
 ![image](https://github.com/user-attachments/assets/9b2e1567-3865-4583-97f0-2c853fac9837)
 
-
+<img width="1905" height="871" alt="deleting or clean up VM  after using Vpn lab" src="https://github.com/user-attachments/assets/f3742fb4-3c1a-44c7-a3c2-a2c15f61d3d2" />
 
 
 
