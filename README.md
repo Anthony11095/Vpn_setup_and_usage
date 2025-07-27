@@ -30,29 +30,27 @@ This lab demonstrates how VPNs can be used to mask your IP address and simulate 
 
 CONFIGURATION STEPS
 
-<img width="1898" height="878" alt="Active Directory lab, creating resource group" src="https://github.com/user-attachments/assets/9e1f8e90-7de9-437c-a9c3-6e273f8a07c6" />
-
-
 <img width="1909" height="807" alt="Screenshot 2025-06-30 121523" src="https://github.com/user-attachments/assets/3f90846b-fcae-40dd-9598-74ba45b96620" />
-
-
-![Azure Portal - Create Virtual Machine](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
 
 <img width="1869" height="780" alt="Screenshot 2025-06-30 124922" src="https://github.com/user-attachments/assets/36916353-3370-4e17-8408-37a402f59505" />
 
 
-![Azure Portal - VM Deployment in Progress](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
-
 <img width="1897" height="857" alt="using remote desktop after creating our virtual machine, vpn set up   usage lab" src="https://github.com/user-attachments/assets/1131a9ca-fb88-4f47-983f-8a51047f5fe5" />
-
-![Azure Portal - RDP Access to VM](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
 
 <img width="1905" height="871" alt="deleting or clean up VM  after using Vpn lab" src="https://github.com/user-attachments/assets/f3742fb4-3c1a-44c7-a3c2-a2c15f61d3d2" />
 
+![image](https://github.com/user-attachments/assets/d32a697b-3991-48b8-8263-9991df5518ba)
 
-![Azure Portal - Delete Virtual Machine](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
+![image](https://github.com/user-attachments/assets/4236f54f-2f86-4879-b708-6e2d92585d0b)
+
+![image](https://github.com/user-attachments/assets/8e6436f4-8641-4b1c-8d41-18ac41bd3a0b)
+
+![image](https://github.com/user-attachments/assets/907d2476-e8b6-466e-be0d-e096f47209b1)
+
+![image](https://github.com/user-attachments/assets/9b2e1567-3865-4583-97f0-2c853fac9837)
+
 
 
 
